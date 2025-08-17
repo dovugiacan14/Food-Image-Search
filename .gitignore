@@ -163,3 +163,4 @@ cython_debug/
 static/data/
 static_standard/data/
 food-101/
+static/data-full/
