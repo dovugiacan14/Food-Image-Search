@@ -15,7 +15,7 @@ def search():
     search_query = request.args.get("search_query")
 
     app = App()
-    results = app.search(search_query, results=5)
+    results = app.search(search_query, results=10)
     return results
 
 
